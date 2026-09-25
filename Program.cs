@@ -23,7 +23,7 @@ class Program
 
         string funName = "Dude " + name + " of " + color + " Estocolmo ";
         // Skriv ut resultatet på skärmen.
-        Console.WriteLine("Your fun name is:" + funName);
+        Console.WriteLine("Your fun name is: " + funName);
         // Tips:
         // Använd Console.ReadLine() för att ta in text.
         // Använd Console.WriteLine() för att skriva ut text.
