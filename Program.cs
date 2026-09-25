@@ -9,20 +9,21 @@ class Program
         // Instruktioner:
         // Be användaren skriva in sitt förnamn.
         Console.WriteLine("Please provide your name:");
-        string name = Console.ReadLine();
+        string name = Console.ReadLine()!;
 
         Console.WriteLine($"Your name is: {name}");
         // Be användaren skriva in sin favoritfärg.
 
         Console.WriteLine("Please provide your favorite color:");
-        string color = Console.ReadLine();
+        string color = Console.ReadLine()!;
 
         Console.WriteLine($"Your favorite color is: {color}");
         // Sätt ihop dessa två till ett roligt namn.
         // Exempel: “Anna” + “Blå” → Lil Anna of Blå Angeles
 
-        string funName = ($"")
+        string funName = "Dude " + name + " of " + color + " Estocolmo ";
         // Skriv ut resultatet på skärmen.
+        Console.WriteLine("Your fun name is:" + funName);
         // Tips:
         // Använd Console.ReadLine() för att ta in text.
         // Använd Console.WriteLine() för att skriva ut text.
